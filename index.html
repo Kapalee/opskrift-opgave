@@ -6,14 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ond risotto</title>
     <link rel="stylesheet" href="app.css" />
+<style>
+  .container {
+    display: grid;
+    grid-template-columns: repeat(100px 25px 100px);
+    grid-template-rows: 50px, 100px, 50px;
+    grid-gap: 5px;
+    
+  }
+  
+  .cell {
+    border: 5px solid black;
+    box-sizing: border-box;
+  }
+</style>
+        
+    </style>
   </head>
   <body>
+    <div class="container">
+
+    <div class="cell">    
     <header>
         <h1 class="textcenter">Opskrift på risotto:</h1>
-        <img src="https://images.unsplash.com/photo-1621341258668-b2bf005a9f97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Risotto"
-        <h2 class="textcenter"> Du skal bruge:</h2>
+        
     </header>
-    <section>
+    </div>
+    <div class="cell"
+    <section id="Ingrediens">
+         <h2 class="textcenter">Retten</h2>
+        Den klassiske italienske risotto er en skøn og fyldig ret, som er meget mættende og et godt aftensmåltid, når man trænger til lidt komfort og hygge.
+        Her tilbereder jeg den lækre risotto med svampe og har brugt de klassiske risotto ris til tilberedningen. Men hvis man vil komme lidt mere budgetvenligt omkring retten, så kan man bruge grødris i stedet.
+        Retten kan fint udgøre et måltid i sig selv eller kan serveres som tilbehør til kød eller salater.
+        <p></p>
+        <img src="https://images.unsplash.com/photo-1621341258668-b2bf005a9f97?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt="Risotto"
+        <p></p>
+        <h3 class="textcenter">Ingredienser</h3>
         <ul>
         <li>1 løg, finthakket</li>
         <li>1 fed hvidløg</li> 
@@ -29,6 +57,15 @@
         <li>1 håndfuld bredbladet persille, friskhakket</li>
         </ul>
         <ol>
+        
+        <p></p>
+     </section>
+    </div>
+     <div class="cell"
+     <p></p>
+    <h4 class="textcenter"> Sådan gør du: </h4>
+     <section id="Fremgangsmåde">
+            <ul>
             <li> Sauter løg og hvidløg i en gryde med olie, til løgene er klare og bløde</li>
             <li> Tilsæt ris og rør det godt igennem </li>
             <li> Hæld 1 dl grøntsagsbouillon i gryden og rør, til risene har ab­sorberet væden</li>
@@ -38,10 +75,12 @@
             <li>rør dem derefter i gryden med risotto sammen med friskrevet parmesan</li>
             <li>Smag til med salt og friskkværnet peber</li>
             <li>Server med revet parmesan og persille</li>
+            </ul>
         </ol>
-
     </section>
+</div>
 
     <script src="app.js"></script>
+    </div>
   </body>
 </html>

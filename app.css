@@ -1,7 +1,27 @@
 body {
   font-family: Broadway, Helvetica, sans-serif;
-  background-color: rgb(243, 190, 129);
+  background: linear-gradient(
+    87.4deg,
+    rgb(255, 241, 165) 1.9%,
+    rgb(200, 125, 76) 49.7%,
+    rgb(83, 54, 54) 100.5%
+  );
 }
 .textcenter {
   text-align: center;
+}
+.container > div:nth-child(1n) {
+  background-color: #7df4af;
+}
+.container > div:nth-child(2n) {
+  background-color: #f4de7d;
+}
+
+.container > div:nth-child(3n) {
+  background-color: #6abff0;
+}
+.container > div > img {
+  width: 40%;
+  height: 40%;
+  object-fit: contain;
 }
